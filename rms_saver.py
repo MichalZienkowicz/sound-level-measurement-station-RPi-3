@@ -3,6 +3,14 @@ import numpy as np
 import time
 from datetime import datetime
 import os
+# ----------------------------------------------------------------------------------------
+# rms_saver.py
+#
+# Script for saving RMS of audio signal recorded - values saved every RECORD_SECONDS
+# seconds as a new record
+# New file with records created every NEW_FILES_N_MINUTES minutes
+# File is meant to run in tmux session
+# ----------------------------------------------------------------------------------------
 
 CHUNK = 22050
 FORMAT = pyaudio.paInt16
