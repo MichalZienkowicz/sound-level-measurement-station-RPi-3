@@ -9,5 +9,5 @@ fi
 
 tmux new-session -d -s $session_name "python3 /home/michz/Project/rms_saver.py"
 
-echo "Uruchomiono sesję tmux: $session_name"
-echo "W celu wyłączenia wpisz: tmux kill-session -t $session_name (sprawdz tmux ls)"
+echo "Running tmux session: $session_name"
+echo "To turn session off enter: tmux kill-session -t $session_name (check tmux ls)"
