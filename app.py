@@ -20,7 +20,7 @@ matplotlib.use('Agg')
 
 app = Flask(__name__)
 
-CONFIG_PATH = "/home/michz/Project/db_config_web.json"
+CONFIG_PATH = "/home/michz/Project/db_config.json"
 
 with open(CONFIG_PATH, "r") as f:
     db_config = json.load(f)

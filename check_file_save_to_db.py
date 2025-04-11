@@ -11,7 +11,7 @@ from datetime import datetime
 # ----------------------------------------------------------------------------------------
 
 DATA_DIR = "/home/michz/Project/rms_data"
-CONFIG_PATH = "/home/michz/Project/db_config_local.json"
+CONFIG_PATH = "/home/michz/Project/db_config.json"
 
 with open(CONFIG_PATH, "r") as f:
     db_config = json.load(f)
