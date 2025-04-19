@@ -36,7 +36,8 @@ Follow these steps to set up and run the Sound Level Measurement Station on your
       id INT AUTO_INCREMENT PRIMARY KEY,
       timestamp DATETIME NOT NULL,
       rms_value DOUBLE NOT NULL
-  );```
+  );
+  ```
   
 #### 2. Configure database settings
 
